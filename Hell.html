@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The HTML Hell Page</title>
+    <style>
+        /* creating a garish background */
+        body {
+            background-color: #ff00ff;
+            color: #00ff00;
+            font-family: 'Comic Sans MS', cursive;
+        }
+        /* styling for blinking text */
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+        .blinking {
+            animation: blinker 1s linear infinite;
+        }
+        /* unreadable text/background combinations */
+        .unreadable {
+            background-color: #0000ff;
+            color: #000080;
+        }
+        /* fixed-size fonts dimensioned in pixels */
+        p {
+            font-size: 10px;
+        }
+        /* changing the hotlink colors */
+        a {
+            color: #ff1493;
+        }
+        /* marquee styling */
+        marquee {
+            font-size: 24px;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Welcome to The HTML Hell Page</h1>
+
+<marquee>"Hell is other websmiths." — Jean-Paul Sartre, updated</marquee>
+
+<div class="blinking">You Know You're In Design Hell When You See...</div>
+<p class="unreadable">Blinking text, gratuitous animation, marquees, garish backgrounds...</p>
+
+<!-- Example of 'Best viewed with...' -->
+<p>This site is best viewed with <strong>Browser X</strong> at a screen resolution of 800x600.</p>
+
+<!-- Large fixed-size tables -->
+<table width="800">
+    <tr>
+        <td>Unnecessary border spacing</td>
+    </tr>
+</table>
+
+<!-- Example of JavaScript misuse -->
+<script>
+    document.write('<h2>masturbation with Javascript</h2>');
+</script>
+
+<!-- Gratuitous use of <small> and <font size=> -->
+<small>Pointless use of &lt;small&gt; or &lt;font size=&gt;</small>
+
+<!-- Background MIDI, Flash, Shockwave -->
+<embed src="annoying_music.mid" autostart="true"></embed>
+
+<p>Forcing one of background and text colour, but not both.</p>
+
+<!-- This section simulates a feedback request without providing a direct method of contact. -->
+<p>Got your own gripe about poor HTML design? Too bad, we don't want to hear it.</p>
+
+</body>
+</html>
